@@ -1,0 +1,27 @@
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: #282c34;
+}
+
+.about-container img {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+}
+
+.about-container h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  border-bottom: 5px solid #007BFF;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.about-container p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+

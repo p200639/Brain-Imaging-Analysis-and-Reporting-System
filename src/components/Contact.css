@@ -1,0 +1,22 @@
+.contact-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-container h1 {
+  font-size: 2.5rem;
+  border-bottom: 5px solid #00f;
+}
+
+.contact-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-container img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+

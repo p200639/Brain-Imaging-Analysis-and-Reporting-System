@@ -1,0 +1,36 @@
+nav {
+  background-color: #282c34;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  height: 50px;  /* Logo size */
+}
+
+nav a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  nav img {
+    height: 30px;
+  }
+  nav {
+    flex-direction: column;
+    padding: 10px;
+  }
+  nav a, nav img {
+    margin-bottom: 10px;
+  }
+}
+
